@@ -9,7 +9,10 @@ package the.game;
  *
  * @author george
  */
-public class Test {
-   
+public enum Direction {
     
-}
+    NORTH,SOUTH,EAST,WEST;
+    
+    public static final int NOEXIT =-1;
+    
+};
